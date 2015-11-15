@@ -1,4 +1,7 @@
-# handlebars-template-demo
+# Handlebars-WebJars Demo
+
+Simple Handlebars-based template released as WebJars.
+Based on: https://github.com/sphereio/sphere-sunrise-design
 
 ###Installation
 
@@ -14,7 +17,7 @@
 
 `grunt build` to build the generated site
 
-`grunt release` to install to local maven repository (~/.m2/repository/com/lauraluiz/handlebars-template-demo)
+`grunt release` to install to local maven repository (~/.m2/repository/com/lauraluiz/handlebars-webjars-demo)
 
 Notice you can always add `--verbose` and/or `--debug` to any command in order to obtain more information.
 
