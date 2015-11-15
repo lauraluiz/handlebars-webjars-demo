@@ -1,6 +1,7 @@
 # Handlebars-WebJars Demo
 
 Simple Handlebars-based template released as WebJars.
+
 Based on: https://github.com/sphereio/sphere-sunrise-design
 
 ###Installation
