@@ -97,7 +97,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-compile-handlebars');
   grunt.loadNpmTasks('grunt-maven-tasks');
 
-  grunt.registerTask('default', 'build');
+  grunt.registerTask('default', ['build', 'release']);
   grunt.registerTask('build', ['clean', 'pre-handlebars', 'handlebars', 'copy:dist']);
   grunt.registerTask('release', ['build', 'maven:install', 'clean:dist']);
 

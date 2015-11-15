@@ -14,7 +14,7 @@
 
 `grunt build` to build the generated site
 
-`grunt release` to install to local maven repository (~/.m2/repository/io/sphere/sphere-sunrise-design)
+`grunt release` to install to local maven repository (~/.m2/repository/com/lauraluiz/handlebars-template-demo)
 
 Notice you can always add `--verbose` and/or `--debug` to any command in order to obtain more information.
 
@@ -31,7 +31,7 @@ Once the project is built, the generated site is located in the `output/` folder
 `grunt json-refs`
   - Resolves all JSON References found in files in `input/templates/` and creates a fully resolved equivalent in `output/templates/`
 
-`grunt compile-handlebars`
+`grunt handlebars`
   - Generates HTML files from the Handlebars templates and JSON data defined in `input/templates/` and the partial templates defined in `input/templates/partials/` into `output/`
 
 `grunt copy`
