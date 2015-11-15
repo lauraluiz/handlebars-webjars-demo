@@ -1,0 +1,9 @@
+{{#if cart.lineItems}}
+  <ul>
+    {{#each cart.lineItems}}
+    <li>{{name}} - {{quantity}}</li>
+    {{/each}}
+  </ul>
+{{else}}
+  <p>{{i18n "cart:empty"}}</p>
+{{/if}}
