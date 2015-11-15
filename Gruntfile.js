@@ -71,8 +71,8 @@ module.exports = function(grunt) {
         lng: 'en',
         fallbackLng: 'en',
         ns: {
-          namespaces: ['cart'],
-          defaultNs: 'cart'
+          namespaces: ['messages'],
+          defaultNs: 'messages'
         }
       }
     },

@@ -1,0 +1,51 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body { 
+	color: #4C4C4C;
+	font-family: Verdana,Arial,Helvetica,sans-serif; 	
+}
+
+h3 { 	
+	font-size: 1em;
+	font-weight: bold;		
+	line-height: 1.3em;
+	padding: 2em 0;	
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+div {
+	width: 500px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	line-height: 2em;
+	padding-top: 10px;
+}
+
+li > img {
+	vertical-align: -50%;
+}
+
+li > span {
+	width: 30px;
+	font-weight: bold;
+	display: inline-block;
+	text-align: right;
+}

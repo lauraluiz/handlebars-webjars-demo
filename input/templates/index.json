@@ -1,6 +1,6 @@
 {
   "user" : {
     "name" : "John Doe",
-    "cart" : { "$ref" : "line-items.json" }
+    "cart" : { "$ref" : "shopping-list.json" }
   }
 }

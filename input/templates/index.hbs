@@ -1,9 +1,14 @@
 <html>
   <head>
-    <title>{{i18n "cart:title"}}</title>
+    <meta charset="utf-8">
+    <title>{{i18n "title"}}</title>
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <p>{{i18n "cart:list" name=user.name}}:</p>
-    {{>line-items cart=user.cart}}
+  	<div>
+    	<h3>{{i18n "hello" name=user.name}}</h3>
+    	<p>{{i18n "buy"}}</p>
+    	{{>shopping-list cart=user.cart}}
+	</div>
   </body>
 </html>
