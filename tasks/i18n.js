@@ -14,14 +14,14 @@ module.exports = function(grunt) {
       },
       resGetPath: 'locales/__lng__/__ns__.yaml'
     });
+
     Handlebars = require('handlebars');
-
     i18n = require('i18next');
-
     var yamlSync = require('i18next.yaml');
-    i18n.backend(yamlSync);
 
+    i18n.backend(yamlSync);
     i18n.init(options, function (err, t) {
+      if (err) grunt.log.error(err);
       done(true);
     });
   });
