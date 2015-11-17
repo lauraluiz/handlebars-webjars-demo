@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
 
-  grunt.registerTask('i18n', 'Internationalization init', function() {
+  grunt.registerTask('i18n-init', 'Internationalization init', function() {
     var done = this.async();
     var options = this.options({
       preload: ['en'],

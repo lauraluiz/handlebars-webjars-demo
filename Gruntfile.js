@@ -64,8 +64,8 @@ module.exports = function(grunt) {
       }
     },
 
-    // Configuration of the 'i18next' task, to support internationalization in Handlebars
-    i18n: {
+    // Configuration of the 'i18n-init' task, to initialize the support for i18n in Handlebars
+    'i18n-init': {
       options: {
         preload: ['de', 'en'],
         lng: 'en',
@@ -103,7 +103,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('pre-handlebars', 'Tasks to be run before Handlebars', function() {
     grunt.task.run('json-refs');
-    grunt.task.run('i18n');
+    grunt.task.run('i18n-init');
     grunt.task.run('copy:pages');
   });
 
