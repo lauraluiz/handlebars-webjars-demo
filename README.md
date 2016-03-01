@@ -2,7 +2,7 @@
 
 Simple Handlebars-based template released as WebJars.
 
-Based on: https://github.com/sphereio/sphere-sunrise-design
+Based on: https://github.com/sphereio/commercetools-sunrise-theme
 
 ###Installation
 
