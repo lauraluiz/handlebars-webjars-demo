@@ -3,17 +3,17 @@
     {
       "name": "milk",
       "quantity": 5,
-      "image": "assets/img/milk.jpg"
+      "image": "../../assets/img/milk.jpg"
     },
     {
       "name": "eggs",
       "quantity": 12,
-      "image": "assets/img/eggs.jpg"
+      "image": "../../assets/img/eggs.jpg"
     },
     {
       "name": "vodka",
       "quantity": 1,
-      "image": "assets/img/vodka.jpg"
+      "image": "../../assets/img/vodka.jpg"
     }
   ]
 }
