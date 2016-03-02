@@ -10,13 +10,6 @@ var writeTemplateFileHints = function(content, srcPath) {
   return prepended + content + appended;
 }
 
-var renameI18nFiles = function(dest, src) {
-  var locale = src.substring(0, src.indexOf('/')),
-      fileName = src.substring(src.indexOf('/')),
-      domain = fileName.substring(0, fileName.indexOf('.yaml'));
-  return dest + domain + '.' + locale + '.yml';
-}
-
 module.exports = {
 
   // 'grunt-contrib-copy': moves files into the output folder
@@ -91,29 +84,6 @@ module.exports = {
         cwd: 'input/i18n/',
         dest: 'output/i18n',
         src: '**/*.yaml'
-      },
-      {
-        expand: true,
-        cwd: 'input/i18n/',
-        dest: 'output/translations/',
-        src: '**/*.yaml',
-        rename: renameI18nFiles
-      }
-    ]
-  },
-  composer: {
-    files: [
-      {
-        expand: true,
-        cwd: 'output/',
-        dest: 'composer/',
-        src: '**/*'
-      },
-      {
-        expand: true,
-        cwd: '/',
-        dest: 'composer/',
-        src: 'README.md'
       }
     ]
   }
