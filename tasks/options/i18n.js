@@ -8,9 +8,9 @@ module.exports = {
     fallbackLng: 'en',
     ns: {
       namespaces: [
-        'messages'
+        'main'
       ],
-      defaultNs: 'messages'
+      defaultNs: 'main'
     }
   }
 
